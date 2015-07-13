@@ -1,0 +1,145 @@
+@black: rgb(0, 0, 0);
+@white: rgb(255, 255, 255);
+@yellow-green: rgb(197,255,52);
+@light-green: rgb(97,204,95);
+@blue: rgb(72,45,204);
+@dark-green: rgb(12,153,10);
+@light-blue: rgb(175,112,255);
+
+@green1: rgb(44,127,68);
+@green2: rgb(165,255,190);
+@green3: rgb(88,255,135);
+@green4: rgb(82,127,95);
+@green5: rgb(70,204,108);
+
+@primary-color: @green1;
+@secondary-color: @green2;
+@tertiary-color: @green3;
+@support-color: @green4;
+@additional-color: @green5;
+
+@text-color: rgb(40,40,40);;
+
+@background-color: rgb(237, 237, 237);
+
+@page-width: 800px;
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background: @background-color;
+	color: @text-color;
+	margin-bottom:  100px;
+}
+
+p {
+	font-size: 1rem;
+}
+
+a {
+	color: @primary-color;
+	text-decoration: none;
+	&:hover {
+		color: @additional-color;
+		text-decoration: underline;
+	}
+}
+
+.site-header, .site-nav {
+	a {
+		text-decoration: none;
+	}
+}
+
+.site-header {
+	text-align: center;	
+	h1, h2, h3, h4, h5, h6 {
+		display: inline-block;
+		margin: 1rem 0;
+	}
+	h2, h3, h4, h5, h6 {
+		&:before {
+			margin: 0 1rem;
+			content: "-";
+		}
+	}
+
+	a {
+		color: @primary-color;
+	}
+}
+
+.site-nav {
+	margin: 10px auto;
+
+	ul {
+		padding: 0;
+		max-width: @page-width;
+		margin: 0 auto;
+		text-align: center;
+		li {
+			margin: 4px auto;
+			display: inline-block;
+			list-style-type: none;
+			background: @support-color;
+			a {
+				color: @secondary-color;
+				display: block;
+				padding: 4px 10px;
+			}
+			&:hover, &.active {
+				background: @tertiary-color;
+				a {
+					color: @primary-color;
+				}
+			}
+			&.active {
+				background: @secondary-color;
+			}
+		}
+	}
+}
+
+.site-main {
+	background: @white;
+	padding: 5px 0px;
+
+	.main-wrapper {
+		width: @page-width;
+		margin: 5px auto;
+	}
+	
+	.section+.section {
+		border-top: 0.2em solid rgb(200,200,200);
+	}
+	.section:last-child {
+		border-bottom: 0.3em double rgb(200,200,200);
+	}
+	.section .section {
+		border-top: 0.1em dashed rgb(200,200,200);
+		border-bottom: none;
+	}
+}
+
+.site-footer {
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+	height: 80px;
+
+	.footer-wrapper {
+		margin: 5px auto;
+		width: @page-width;
+	}
+}
+
+// For email spam prevention
+.email:before {
+	content: attr(data-domain) "\0040" attr(data-username);
+	unicode-bidi: bidi-override;
+	direction: rtl;
+}
