@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Gix's Work</title><link href="http://eugene.gixs.work/" rel="alternate"></link><link href="http://eugene.gixs.work/feeds/misc.atom.xml" rel="self"></link><id>http://eugene.gixs.work/</id><updated>2014-12-12T00:00:00+08:00</updated><entry><title>Test</title><link href="http://eugene.gixs.work/test.html" rel="alternate"></link><updated>2014-12-12T00:00:00+08:00</updated><author><name>Eugene</name></author><id>tag:eugene.gixs.work,2014-12-12:test.html</id><summary type="html">&lt;p&gt;Hello World&lt;/p&gt;
-</summary></entry></feed>
