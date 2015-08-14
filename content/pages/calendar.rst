@@ -1,4 +1,4 @@
-Calender
+Calendar
 ========
 
 .. raw:: html
