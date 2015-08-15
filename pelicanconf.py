@@ -38,3 +38,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = 'gixpelican'
+
+MENUITEMS = [
+    ('Tech Note', 'http://note.gixs.work'),
+]
