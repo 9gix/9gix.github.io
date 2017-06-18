@@ -3,8 +3,8 @@
 function loadDoc() {
   alert('ready??');
   var xhttp = new XMLHttpRequest();
-  xhttp.open("GET", "http://35.167.178.16:8080", true);
-  xhttp.send('hello digawp');
+  xhttp.open("POST", "http://35.167.178.16:8080", true);
+  xhttp.send('data=hello digawp');
   alert('done');
 }
 loadDoc();
