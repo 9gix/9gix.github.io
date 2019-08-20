@@ -1,11 +1,13 @@
 # GIXS@WORK
 
-Eugene, software engineer, DevOps and Web Developer based in Singapore.
+Eugene, software engineer, DevOps and web developer based in Singapore.
+He is most comfortable writing solution in Python.
+
 
 ## Work Experience
 
-* Autodesk: Build & Release Engineers
-* Tripvillas: Web Developer
+* Autodesk (Jan 2017 - Now): Build & Release Engineers
+* Tripvillas (Jul 2012 - Jul 2013): Web Developer
 
 ## Academic
 
