@@ -11,3 +11,7 @@ Eugene, software engineer, DevOps and Web Developer based in Singapore.
 
 * NUS (Aug 2013 - Dec 2016): Bachelor of Computing (Honours) in Computer Science (Visual Computing)
 * RP  (Aug 2009 - Jan 2012): Diploma (with Merit) in Information Technology (IT Security Specialization)
+
+## Fun Project
+
+In spare time, I learn new stuff by creating some fun [projects](http://9gix.github.io/projects.html).
