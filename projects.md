@@ -4,9 +4,9 @@
 
 Trading BOT.
 
-## Snow Days
+## Snow Days (2015)
 
-Snowfall Animation in 2d (2015)
+Snowfall Animation in 2d 
 
 [Source](https://github.com/9gix/gixlab/tree/master/snow>)
 [Launch](http://9gix.github.io/gixlab/snow/)
